@@ -1,0 +1,13 @@
+identity:
+  author: AlHomaidhi Group
+  name: alhomaidhi
+  label:
+    en_US: AlHomaidhi Tools
+    zh_Hans: AlHomaidhi 工具
+  description:
+    en_US: Official tools for AlHomaidhi Group watch catalog, order tracking, and store locations.
+    zh_Hans: AlHomaidhi 手表目录、订单跟踪和门店位置工具。
+  icon: icon.svg
+  tags:
+    - business
+    - utilities

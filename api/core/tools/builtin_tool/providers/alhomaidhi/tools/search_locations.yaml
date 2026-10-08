@@ -1,0 +1,23 @@
+identity:
+  name: search_locations
+  author: AlHomaidhi Group
+  label:
+    en_US: Search Store Locations
+    zh_Hans: 搜索门店位置
+description:
+  human:
+    en_US: Search AlHomaidhi store branches by city, district, or keyword in Saudi Arabia.
+    zh_Hans: 按城市、区域或关键字搜索沙特阿拉伯的 AlHomaidhi 门店。
+  llm: Search for official AlHomaidhi retail stores and branch locations in Saudi Arabia by city name (e.g., Riyadh, Jeddah, Dammam, Mecca, Medina, Khobar) or area keyword. Returns branch names, addresses, operating hours, and Google Maps location links.
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: City or Location Query
+      zh_Hans: 城市或位置查询
+    human_description:
+      en_US: The city name or location to search for (e.g., Riyadh, Jeddah, Dammam).
+      zh_Hans: 要搜索的城市或位置名称。
+    llm_description: The city or region name (e.g., Riyadh, Jeddah, Dammam, Khobar, Mecca, Medina) to find nearby AlHomaidhi stores.
+    form: llm

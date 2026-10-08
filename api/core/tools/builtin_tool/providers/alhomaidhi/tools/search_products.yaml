@@ -1,0 +1,23 @@
+identity:
+  name: search_products
+  author: AlHomaidhi Group
+  label:
+    en_US: Search Products
+    zh_Hans: 搜索产品
+description:
+  human:
+    en_US: Search AlHomaidhi watch catalog by name, brand, or price filter.
+    zh_Hans: 按名称、品牌或价格筛选搜索 AlHomaidhi 手表目录。
+  llm: Search AlHomaidhi watch catalog. Useful when user asks for watches, brands, or product recommendations.
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Search Query
+      zh_Hans: 搜索关键词
+    human_description:
+      en_US: Product name or search phrase (e.g., "silver watch", "Rolex")
+      zh_Hans: 产品名称或搜索词
+    llm_description: The search query string for finding products.
+    form: llm

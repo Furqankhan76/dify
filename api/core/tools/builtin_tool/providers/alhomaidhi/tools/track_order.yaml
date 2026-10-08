@@ -1,0 +1,23 @@
+identity:
+  name: track_order
+  author: AlHomaidhi Group
+  label:
+    en_US: Track Order
+    zh_Hans: 跟踪订单
+description:
+  human:
+    en_US: Track status of a customer order by phone number or order ID.
+    zh_Hans: 通过电话号码或订单 ID 跟踪客户订单状态。
+  llm: Track AlHomaidhi customer order status.
+parameters:
+  - name: order_id
+    type: string
+    required: false
+    label:
+      en_US: Order ID
+      zh_Hans: 订单 ID
+    human_description:
+      en_US: Specific order ID (e.g. #6956)
+      zh_Hans: 订单号
+    llm_description: The specific order ID if mentioned by user.
+    form: llm
